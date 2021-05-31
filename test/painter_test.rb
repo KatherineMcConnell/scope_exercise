@@ -92,7 +92,7 @@ class PainterTest < Minitest::Test
     paint_1 = Paint.new("Alizarin Crimson")
     paint_2 = Paint.new("Van Dyke Brown")
     painter.add_all_paints(paint_1)
-    painter.add_all_paints(paint_2)
+    painter.add_all_paintsa(paint_2)
     expected = ["Alizarin Crimson", "Van Dyke Brown"]
     assert_equal expected, painter.paint_names
   end
