@@ -3,6 +3,7 @@ require 'minitest/pride'
 require './lib/painter'
 require './lib/paint'
 
+
 class PainterTest < Minitest::Test
   def test_it_exists
     the_painters_name = "Bob Ross"
